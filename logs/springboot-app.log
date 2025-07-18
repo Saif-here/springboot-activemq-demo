@@ -1,29 +1,29 @@
-2025-07-17T18:53:10.591+05:00  INFO 2100 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 2100 (G:\tom\task\target\classes started by Acer in G:\tom\task)
-2025-07-17T18:53:10.669+05:00 DEBUG 2100 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-17T18:53:10.674+05:00  INFO 2100 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-17T18:53:10.853+05:00  INFO 2100 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-17T18:53:10.855+05:00  INFO 2100 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-17T18:53:13.285+05:00  INFO 2100 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-17T18:53:13.288+05:00  INFO 2100 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-07-17T18:53:13.354+05:00  INFO 2100 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-17T18:53:13.357+05:00  INFO 2100 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-17T18:53:13.359+05:00  INFO 2100 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 0 JDBC repository interfaces.
-2025-07-17T18:53:13.385+05:00  INFO 2100 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-17T18:53:13.388+05:00  INFO 2100 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-17T18:53:13.455+05:00  INFO 2100 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
-2025-07-17T18:53:14.815+05:00  INFO 2100 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-17T18:53:14.850+05:00  INFO 2100 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-17T18:53:14.851+05:00  INFO 2100 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-17T18:53:14.943+05:00  INFO 2100 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-17T18:53:14.944+05:00  INFO 2100 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4088 ms
-2025-07-17T18:53:15.656+05:00  INFO 2100 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-17T18:53:15.802+05:00  INFO 2100 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-17T18:53:15.921+05:00  INFO 2100 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-17T18:53:16.615+05:00  INFO 2100 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-17T18:53:16.684+05:00  INFO 2100 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-17T18:53:17.755+05:00  INFO 2100 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6196fc28
-2025-07-17T18:53:17.759+05:00  INFO 2100 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-17T18:53:17.972+05:00  INFO 2100 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-07-18T10:19:24.960+05:00  INFO 4268 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 4268 (G:\tom\task\target\classes started by Acer in G:\tom\task)
+2025-07-18T10:19:24.971+05:00 DEBUG 4268 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-18T10:19:24.973+05:00  INFO 4268 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-18T10:19:25.172+05:00  INFO 4268 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-18T10:19:25.176+05:00  INFO 4268 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-18T10:19:28.245+05:00  INFO 4268 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-18T10:19:28.248+05:00  INFO 4268 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-18T10:19:28.325+05:00  INFO 4268 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-07-18T10:19:28.328+05:00  INFO 4268 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-07-18T10:19:28.330+05:00  INFO 4268 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 0 JDBC repository interfaces.
+2025-07-18T10:19:28.352+05:00  INFO 4268 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-18T10:19:28.355+05:00  INFO 4268 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-18T10:19:28.424+05:00  INFO 4268 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2025-07-18T10:19:29.656+05:00  INFO 4268 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-18T10:19:29.687+05:00  INFO 4268 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-18T10:19:29.687+05:00  INFO 4268 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-18T10:19:29.781+05:00  INFO 4268 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-18T10:19:29.781+05:00  INFO 4268 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4603 ms
+2025-07-18T10:19:30.651+05:00  INFO 4268 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-18T10:19:30.808+05:00  INFO 4268 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-18T10:19:30.911+05:00  INFO 4268 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-18T10:19:31.639+05:00  INFO 4268 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-18T10:19:31.705+05:00  INFO 4268 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-18T10:19:32.798+05:00  INFO 4268 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6169a42
+2025-07-18T10:19:32.801+05:00  INFO 4268 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-18T10:19:33.041+05:00  INFO 4268 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.42
@@ -31,641 +31,47 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-17T18:53:19.781+05:00  INFO 2100 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-17T18:53:19.980+05:00  INFO 2100 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-17T18:53:22.415+05:00  WARN 2100 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-17T18:53:23.884+05:00  INFO 2100 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-17T18:53:23.905+05:00  INFO 2100 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-2025-07-17T18:53:24.124+05:00  INFO 2100 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-17T18:53:24.328+05:00  INFO 2100 --- [task] [restartedMain] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.establishSharedConnection(AbstractJmsListeningContainer.java:402) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.establishSharedConnection(DefaultMessageListenerContainer.java:1017) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.doStart(AbstractJmsListeningContainer.java:305) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.start(AbstractJmsListeningContainer.java:290) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.start(DefaultMessageListenerContainer.java:787) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.config.JmsListenerEndpointRegistry.startIfNecessary(JmsListenerEndpointRegistry.java:242) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.config.JmsListenerEndpointRegistry.start(JmsListenerEndpointRegistry.java:205) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:405) ~[spring-context-6.2.8.jar:6.2.8]
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:394) ~[spring-context-6.2.8.jar:6.2.8]
-	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:586) ~[spring-context-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
-	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:364) ~[spring-context-6.2.8.jar:6.2.8]
-	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:310) ~[spring-context-6.2.8.jar:6.2.8]
-	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:1006) ~[spring-context-6.2.8.jar:6.2.8]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:630) ~[spring-context-6.2.8.jar:6.2.8]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.3.jar:3.5.3]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.3.jar:3.5.3]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.3.jar:3.5.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.3.jar:3.5.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.3.jar:3.5.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.3.jar:3.5.3]
-	at com.example.task.TaskApplication.main(TaskApplication.java:10) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.3.jar:3.5.3]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 29 common frames omitted
-
-2025-07-17T18:53:24.377+05:00  INFO 2100 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 14.811 seconds (process running for 18.383)
-2025-07-17T18:53:29.427+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:53:29.451+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:53:34.454+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:53:34.456+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:53:39.459+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:53:39.461+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:53:44.474+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:53:44.476+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=3, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:53:49.479+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:53:49.481+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=4, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:53:54.504+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:53:54.506+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=5, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:53:59.538+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:53:59.541+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=6, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:54:04.544+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:54:04.546+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=7, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:54:09.549+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:54:09.551+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=8, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:54:14.554+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:54:14.558+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=9, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:54:19.564+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:54:19.566+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=10, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:54:24.579+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:54:24.580+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=11, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:54:29.593+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:54:29.595+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=12, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:54:34.606+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:54:34.608+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=13, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:54:39.621+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:54:39.622+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=14, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:54:44.626+05:00  INFO 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
-
-jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
-	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
-	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
-	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
-	... 9 common frames omitted
-
-2025-07-17T18:54:44.628+05:00 ERROR 2100 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'test-queue' - retrying using FixedBackOff{interval=5000, currentAttempts=15, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
-2025-07-17T18:55:06.105+05:00  INFO 2100 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-17T18:55:06.130+05:00  INFO 2100 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-17T18:55:06.138+05:00  INFO 2100 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-17T18:55:06.144+05:00  INFO 2100 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-17T18:55:06.160+05:00  INFO 2100 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-17T18:55:10.962+05:00  INFO 12720 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 12720 (G:\tom\task\target\classes started by Acer in G:\tom\task)
-2025-07-17T18:55:10.967+05:00 DEBUG 12720 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-17T18:55:10.970+05:00  INFO 12720 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-17T18:55:11.125+05:00  INFO 12720 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-17T18:55:11.128+05:00  INFO 12720 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-17T18:55:13.657+05:00  INFO 12720 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-17T18:55:13.660+05:00  INFO 12720 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-07-17T18:55:13.739+05:00  INFO 12720 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-17T18:55:13.742+05:00  INFO 12720 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-17T18:55:13.744+05:00  INFO 12720 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 0 JDBC repository interfaces.
-2025-07-17T18:55:13.768+05:00  INFO 12720 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-17T18:55:13.770+05:00  INFO 12720 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-17T18:55:13.835+05:00  INFO 12720 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
-2025-07-17T18:55:16.073+05:00  INFO 12720 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-17T18:55:16.120+05:00  INFO 12720 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-17T18:55:16.121+05:00  INFO 12720 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-17T18:55:16.258+05:00  INFO 12720 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-17T18:55:16.259+05:00  INFO 12720 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5125 ms
-2025-07-17T18:55:17.091+05:00  INFO 12720 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-17T18:55:17.224+05:00  INFO 12720 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-17T18:55:17.357+05:00  INFO 12720 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-17T18:55:18.322+05:00  INFO 12720 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-17T18:55:18.410+05:00  INFO 12720 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-17T18:55:19.485+05:00  INFO 12720 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f9eb13b
-2025-07-17T18:55:19.488+05:00  INFO 12720 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-17T18:55:19.693+05:00  INFO 12720 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-07-18T10:19:35.522+05:00  INFO 4268 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-18T10:19:35.753+05:00  INFO 4268 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-18T10:19:36.449+05:00  WARN 4268 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-18T10:19:38.032+05:00  INFO 4268 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-18T10:19:38.057+05:00  INFO 4268 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-07-18T10:19:38.270+05:00  INFO 4268 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-18T10:19:38.555+05:00  INFO 4268 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 14.768 seconds (process running for 23.357)
+2025-07-18T10:20:06.344+05:00  INFO 4268 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18T10:20:06.345+05:00  INFO 4268 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-18T10:20:06.346+05:00  INFO 4268 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-18T10:44:30.305+05:00  INFO 4268 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18T10:44:30.328+05:00  INFO 4268 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-18T10:44:30.341+05:00  INFO 4268 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-18T10:44:30.349+05:00  INFO 4268 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-18T10:44:30.364+05:00  INFO 4268 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-18T10:44:40.607+05:00  INFO 11620 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 11620 (G:\tom\task\target\classes started by Acer in G:\tom\task)
+2025-07-18T10:44:40.612+05:00 DEBUG 11620 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-18T10:44:40.613+05:00  INFO 11620 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-18T10:44:40.784+05:00  INFO 11620 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-18T10:44:40.784+05:00  INFO 11620 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-18T10:44:44.056+05:00  INFO 11620 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-18T10:44:44.059+05:00  INFO 11620 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-18T10:44:44.162+05:00  INFO 11620 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-07-18T10:44:44.165+05:00  INFO 11620 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-07-18T10:44:44.167+05:00  INFO 11620 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 0 JDBC repository interfaces.
+2025-07-18T10:44:44.192+05:00  INFO 11620 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-18T10:44:44.196+05:00  INFO 11620 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-18T10:44:44.265+05:00  INFO 11620 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2025-07-18T10:44:45.468+05:00  INFO 11620 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-18T10:44:45.498+05:00  INFO 11620 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-18T10:44:45.499+05:00  INFO 11620 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-18T10:44:45.576+05:00  INFO 11620 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-18T10:44:45.577+05:00  INFO 11620 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4790 ms
+2025-07-18T10:44:46.206+05:00  INFO 11620 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-18T10:44:46.287+05:00  INFO 11620 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-18T10:44:46.348+05:00  INFO 11620 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-18T10:44:47.066+05:00  INFO 11620 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-18T10:44:47.124+05:00  INFO 11620 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-18T10:44:47.958+05:00  INFO 11620 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75acc149
+2025-07-18T10:44:47.961+05:00  INFO 11620 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-18T10:44:48.127+05:00  INFO 11620 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.42
@@ -673,19 +79,115 @@ Caused by: java.net.ConnectException: Connection refused: getsockopt
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-17T18:55:21.711+05:00  INFO 12720 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-17T18:55:21.875+05:00  INFO 12720 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-17T18:55:22.606+05:00  WARN 12720 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-17T18:55:23.842+05:00  INFO 12720 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-17T18:55:23.866+05:00  INFO 12720 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-2025-07-17T18:55:24.036+05:00  INFO 12720 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-17T18:55:24.434+05:00  INFO 12720 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 14.744 seconds (process running for 16.16)
-2025-07-17T18:57:31.316+05:00  INFO 12720 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-17T18:57:31.317+05:00  INFO 12720 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-17T18:57:31.320+05:00  INFO 12720 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2025-07-17T18:57:31.374+05:00  WARN 12720 --- [task] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2025-07-17T19:01:44.956+05:00  INFO 12720 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-17T19:01:44.982+05:00  INFO 12720 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-17T19:01:44.995+05:00  INFO 12720 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-17T19:01:45.004+05:00  INFO 12720 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-17T19:01:45.024+05:00  INFO 12720 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-18T10:44:50.365+05:00  INFO 11620 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-18T10:44:50.743+05:00  INFO 11620 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-18T10:44:51.709+05:00  WARN 11620 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-18T10:44:53.365+05:00  INFO 11620 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-18T10:44:53.390+05:00  INFO 11620 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-07-18T10:44:53.704+05:00  INFO 11620 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-18T10:44:53.982+05:00  INFO 11620 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 14.598 seconds (process running for 15.751)
+2025-07-18T10:45:19.928+05:00  INFO 11620 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18T10:45:19.929+05:00  INFO 11620 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-18T10:45:19.933+05:00  INFO 11620 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-07-18T10:49:35.645+05:00  WARN 11620 --- [task] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'msg' for method parameter type String is not present]
+2025-07-18T10:52:50.381+05:00  INFO 11620 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18T10:52:50.404+05:00  INFO 11620 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-18T10:52:50.427+05:00  INFO 11620 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-18T10:52:50.437+05:00  INFO 11620 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-18T10:52:50.456+05:00  INFO 11620 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-18T10:52:57.663+05:00  INFO 12456 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 12456 (G:\tom\task\target\classes started by Acer in G:\tom\task)
+2025-07-18T10:52:57.667+05:00 DEBUG 12456 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-18T10:52:57.669+05:00  INFO 12456 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-18T10:52:57.812+05:00  INFO 12456 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-18T10:52:57.813+05:00  INFO 12456 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-18T10:53:00.334+05:00  INFO 12456 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-18T10:53:00.337+05:00  INFO 12456 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-18T10:53:00.417+05:00  INFO 12456 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-07-18T10:53:00.420+05:00  INFO 12456 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-07-18T10:53:00.422+05:00  INFO 12456 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 0 JDBC repository interfaces.
+2025-07-18T10:53:00.443+05:00  INFO 12456 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-18T10:53:00.445+05:00  INFO 12456 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-18T10:53:00.523+05:00  INFO 12456 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2025-07-18T10:53:01.813+05:00  INFO 12456 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-18T10:53:01.853+05:00  INFO 12456 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-18T10:53:01.854+05:00  INFO 12456 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-18T10:53:01.963+05:00  INFO 12456 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-18T10:53:01.964+05:00  INFO 12456 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4149 ms
+2025-07-18T10:53:02.645+05:00  INFO 12456 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-18T10:53:02.756+05:00  INFO 12456 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-18T10:53:02.826+05:00  INFO 12456 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-18T10:53:03.458+05:00  INFO 12456 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-18T10:53:03.523+05:00  INFO 12456 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-18T10:53:04.491+05:00  INFO 12456 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d15af8a
+2025-07-18T10:53:04.495+05:00  INFO 12456 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-18T10:53:04.745+05:00  INFO 12456 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-18T10:53:06.419+05:00  INFO 12456 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-18T10:53:06.575+05:00  INFO 12456 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-18T10:53:07.238+05:00  WARN 12456 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-18T10:53:08.560+05:00  INFO 12456 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-18T10:53:08.582+05:00  INFO 12456 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-07-18T10:53:08.860+05:00  INFO 12456 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-18T10:53:09.143+05:00  INFO 12456 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 12.619 seconds (process running for 13.868)
+2025-07-18T10:53:20.612+05:00  INFO 12456 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18T10:53:20.612+05:00  INFO 12456 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-18T10:53:20.614+05:00  INFO 12456 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-18T11:02:05.694+05:00  INFO 12456 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18T11:02:05.717+05:00  INFO 12456 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-18T11:02:05.729+05:00  INFO 12456 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-18T11:02:05.737+05:00  INFO 12456 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-18T11:02:05.750+05:00  INFO 12456 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-18T11:02:13.308+05:00  INFO 14352 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 14352 (G:\tom\task\target\classes started by Acer in G:\tom\task)
+2025-07-18T11:02:13.312+05:00 DEBUG 14352 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-18T11:02:13.314+05:00  INFO 14352 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-18T11:02:13.468+05:00  INFO 14352 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-18T11:02:13.469+05:00  INFO 14352 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-18T11:02:16.171+05:00  INFO 14352 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-18T11:02:16.175+05:00  INFO 14352 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-18T11:02:16.265+05:00  INFO 14352 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-07-18T11:02:16.269+05:00  INFO 14352 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-07-18T11:02:16.270+05:00  INFO 14352 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 0 JDBC repository interfaces.
+2025-07-18T11:02:16.293+05:00  INFO 14352 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-18T11:02:16.295+05:00  INFO 14352 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-18T11:02:16.368+05:00  INFO 14352 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2025-07-18T11:02:17.605+05:00  INFO 14352 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-18T11:02:17.639+05:00  INFO 14352 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-18T11:02:17.640+05:00  INFO 14352 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-18T11:02:17.742+05:00  INFO 14352 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-18T11:02:17.743+05:00  INFO 14352 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4273 ms
+2025-07-18T11:02:18.419+05:00  INFO 14352 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-18T11:02:18.533+05:00  INFO 14352 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-18T11:02:18.600+05:00  INFO 14352 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-18T11:02:19.256+05:00  INFO 14352 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-18T11:02:19.321+05:00  INFO 14352 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-18T11:02:20.164+05:00  INFO 14352 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@580a3258
+2025-07-18T11:02:20.168+05:00  INFO 14352 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-18T11:02:20.421+05:00  INFO 14352 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-18T11:02:22.156+05:00  INFO 14352 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-18T11:02:22.307+05:00  INFO 14352 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-18T11:02:22.938+05:00  WARN 14352 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-18T11:02:24.250+05:00  INFO 14352 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-18T11:02:24.270+05:00  INFO 14352 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-07-18T11:02:24.462+05:00  INFO 14352 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-18T11:02:24.740+05:00  INFO 14352 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 12.699 seconds (process running for 13.95)
+2025-07-18T11:02:31.006+05:00  INFO 14352 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18T11:02:31.006+05:00  INFO 14352 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-18T11:02:31.012+05:00  INFO 14352 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-07-18T11:09:20.896+05:00  INFO 14352 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18T11:09:20.922+05:00  INFO 14352 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-18T11:09:20.935+05:00  INFO 14352 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-18T11:09:20.945+05:00  INFO 14352 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-18T11:09:20.969+05:00  INFO 14352 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

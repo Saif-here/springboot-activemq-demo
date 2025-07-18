@@ -14,7 +14,7 @@ public class MQController {
 
     @PostMapping("/send")
     public String sendMessage(@RequestParam String msg) {
-        producer.sendMessage("test-queue", msg);
+        producer.sendMessage("Queue-mq", msg);
         return "Message sent to ActiveMQ!";
     }
 }
