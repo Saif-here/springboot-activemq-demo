@@ -1,29 +1,26 @@
-2025-07-18T10:19:24.960+05:00  INFO 4268 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 4268 (G:\tom\task\target\classes started by Acer in G:\tom\task)
-2025-07-18T10:19:24.971+05:00 DEBUG 4268 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-18T10:19:24.973+05:00  INFO 4268 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-18T10:19:25.172+05:00  INFO 4268 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-18T10:19:25.176+05:00  INFO 4268 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-18T10:19:28.245+05:00  INFO 4268 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T10:19:28.248+05:00  INFO 4268 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-07-18T10:19:28.325+05:00  INFO 4268 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T10:19:28.328+05:00  INFO 4268 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T10:19:28.330+05:00  INFO 4268 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 0 JDBC repository interfaces.
-2025-07-18T10:19:28.352+05:00  INFO 4268 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T10:19:28.355+05:00  INFO 4268 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-18T10:19:28.424+05:00  INFO 4268 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
-2025-07-18T10:19:29.656+05:00  INFO 4268 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-18T10:19:29.687+05:00  INFO 4268 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-18T10:19:29.687+05:00  INFO 4268 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-18T10:19:29.781+05:00  INFO 4268 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-18T10:19:29.781+05:00  INFO 4268 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4603 ms
-2025-07-18T10:19:30.651+05:00  INFO 4268 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-18T10:19:30.808+05:00  INFO 4268 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-18T10:19:30.911+05:00  INFO 4268 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-18T10:19:31.639+05:00  INFO 4268 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-18T10:19:31.705+05:00  INFO 4268 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-18T10:19:32.798+05:00  INFO 4268 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6169a42
-2025-07-18T10:19:32.801+05:00  INFO 4268 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-18T10:19:33.041+05:00  INFO 4268 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-07-21T10:47:09.147+05:00  INFO 12512 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-21T10:47:09.164+05:00  INFO 12512 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-21T10:47:11.776+05:00  INFO 12512 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-21T10:47:11.778+05:00  INFO 12512 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-21T10:47:11.850+05:00  INFO 12512 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-07-21T10:47:11.852+05:00  INFO 12512 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-07-21T10:47:11.854+05:00  INFO 12512 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 0 JDBC repository interfaces.
+2025-07-21T10:47:11.874+05:00  INFO 12512 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-21T10:47:11.878+05:00  INFO 12512 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21T10:47:11.948+05:00  INFO 12512 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2025-07-21T10:47:13.280+05:00  INFO 12512 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-21T10:47:13.316+05:00  INFO 12512 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-21T10:47:13.317+05:00  INFO 12512 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-21T10:47:13.408+05:00  INFO 12512 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-21T10:47:13.409+05:00  INFO 12512 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4239 ms
+2025-07-21T10:47:14.033+05:00  INFO 12512 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-21T10:47:14.175+05:00  INFO 12512 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21T10:47:14.261+05:00  INFO 12512 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-21T10:47:14.966+05:00  INFO 12512 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21T10:47:15.035+05:00  INFO 12512 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-21T10:47:16.345+05:00  INFO 12512 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d70b5a1
+2025-07-21T10:47:16.348+05:00  INFO 12512 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-21T10:47:16.566+05:00  INFO 12512 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.42
@@ -31,47 +28,195 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-18T10:19:35.522+05:00  INFO 4268 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-18T10:19:35.753+05:00  INFO 4268 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T10:19:36.449+05:00  WARN 4268 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-18T10:19:38.032+05:00  INFO 4268 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-18T10:19:38.057+05:00  INFO 4268 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-2025-07-18T10:19:38.270+05:00  INFO 4268 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-18T10:19:38.555+05:00  INFO 4268 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 14.768 seconds (process running for 23.357)
-2025-07-18T10:20:06.344+05:00  INFO 4268 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-18T10:20:06.345+05:00  INFO 4268 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-18T10:20:06.346+05:00  INFO 4268 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-07-18T10:44:30.305+05:00  INFO 4268 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-18T10:44:30.328+05:00  INFO 4268 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-18T10:44:30.341+05:00  INFO 4268 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T10:44:30.349+05:00  INFO 4268 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-18T10:44:30.364+05:00  INFO 4268 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-18T10:44:40.607+05:00  INFO 11620 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 11620 (G:\tom\task\target\classes started by Acer in G:\tom\task)
-2025-07-18T10:44:40.612+05:00 DEBUG 11620 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-18T10:44:40.613+05:00  INFO 11620 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-18T10:44:40.784+05:00  INFO 11620 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-18T10:44:40.784+05:00  INFO 11620 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-18T10:44:44.056+05:00  INFO 11620 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T10:44:44.059+05:00  INFO 11620 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-07-18T10:44:44.162+05:00  INFO 11620 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T10:44:44.165+05:00  INFO 11620 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T10:44:44.167+05:00  INFO 11620 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 0 JDBC repository interfaces.
-2025-07-18T10:44:44.192+05:00  INFO 11620 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T10:44:44.196+05:00  INFO 11620 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-18T10:44:44.265+05:00  INFO 11620 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
-2025-07-18T10:44:45.468+05:00  INFO 11620 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-18T10:44:45.498+05:00  INFO 11620 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-18T10:44:45.499+05:00  INFO 11620 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-18T10:44:45.576+05:00  INFO 11620 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-18T10:44:45.577+05:00  INFO 11620 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4790 ms
-2025-07-18T10:44:46.206+05:00  INFO 11620 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-18T10:44:46.287+05:00  INFO 11620 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-18T10:44:46.348+05:00  INFO 11620 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-18T10:44:47.066+05:00  INFO 11620 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-18T10:44:47.124+05:00  INFO 11620 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-18T10:44:47.958+05:00  INFO 11620 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75acc149
-2025-07-18T10:44:47.961+05:00  INFO 11620 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-18T10:44:48.127+05:00  INFO 11620 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-07-21T10:47:18.300+05:00  INFO 12512 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21T10:47:18.580+05:00  INFO 12512 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21T10:47:19.863+05:00  WARN 12512 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-21T10:47:21.458+05:00  INFO 12512 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-21T10:47:21.486+05:00  INFO 12512 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-07-21T10:47:21.776+05:00  INFO 12512 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-21T10:47:22.015+05:00  INFO 12512 --- [task] [restartedMain] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.establishSharedConnection(AbstractJmsListeningContainer.java:402) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.establishSharedConnection(DefaultMessageListenerContainer.java:1017) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.doStart(AbstractJmsListeningContainer.java:305) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.start(AbstractJmsListeningContainer.java:290) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.start(DefaultMessageListenerContainer.java:787) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.config.JmsListenerEndpointRegistry.startIfNecessary(JmsListenerEndpointRegistry.java:242) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.config.JmsListenerEndpointRegistry.start(JmsListenerEndpointRegistry.java:205) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:405) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:394) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:586) ~[spring-context-6.2.8.jar:6.2.8]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:364) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:310) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:1006) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:630) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.3.jar:3.5.3]
+	at com.example.task.TaskApplication.main(TaskApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.3.jar:3.5.3]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
+	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
+	... 29 common frames omitted
+
+2025-07-21T10:47:27.104+05:00  INFO 12512 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
+	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
+	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
+	... 9 common frames omitted
+
+2025-07-21T10:47:27.110+05:00 ERROR 12512 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'Queue-mq' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-07-21T10:47:32.122+05:00  INFO 12512 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
+	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
+	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
+	... 9 common frames omitted
+
+2025-07-21T10:47:32.124+05:00 ERROR 12512 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'Queue-mq' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-07-21T10:47:37.137+05:00  INFO 12512 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+jakarta.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:423) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:353) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:245) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:211) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:439) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:421) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:1140) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:1114) ~[spring-jms-6.2.8.jar:6.2.8]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1314) ~[spring-jms-6.2.8.jar:6.2.8]
+	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:665) ~[na:na]
+	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:526) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:489) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:172) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64) ~[activemq-client-6.1.6.jar:6.1.6]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:403) ~[activemq-client-6.1.6.jar:6.1.6]
+	... 9 common frames omitted
+
+2025-07-21T10:47:37.138+05:00 ERROR 12512 --- [task] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'Queue-mq' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-07-21T10:47:41.379+05:00  INFO 12512 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21T10:47:41.404+05:00  INFO 12512 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-21T10:47:41.413+05:00  INFO 12512 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21T10:47:41.424+05:00  INFO 12512 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-21T10:47:41.451+05:00  INFO 12512 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-21T10:50:03.453+05:00  INFO 6756 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-21T10:50:03.457+05:00  INFO 6756 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-21T10:50:06.056+05:00  INFO 6756 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-21T10:50:06.061+05:00  INFO 6756 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-07-21T10:50:06.154+05:00  INFO 6756 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-07-21T10:50:06.157+05:00  INFO 6756 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-07-21T10:50:06.159+05:00  INFO 6756 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 0 JDBC repository interfaces.
+2025-07-21T10:50:06.185+05:00  INFO 6756 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-21T10:50:06.188+05:00  INFO 6756 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21T10:50:06.290+05:00  INFO 6756 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2025-07-21T10:50:07.673+05:00  INFO 6756 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-21T10:50:07.712+05:00  INFO 6756 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-21T10:50:07.713+05:00  INFO 6756 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-21T10:50:07.810+05:00  INFO 6756 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-21T10:50:07.811+05:00  INFO 6756 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4352 ms
+2025-07-21T10:50:08.476+05:00  INFO 6756 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-21T10:50:08.587+05:00  INFO 6756 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21T10:50:08.662+05:00  INFO 6756 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-21T10:50:09.333+05:00  INFO 6756 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21T10:50:09.426+05:00  INFO 6756 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-21T10:50:10.300+05:00  INFO 6756 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7815caf8
+2025-07-21T10:50:10.303+05:00  INFO 6756 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-21T10:50:10.469+05:00  INFO 6756 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.42
@@ -79,400 +224,20 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-18T10:44:50.365+05:00  INFO 11620 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-18T10:44:50.743+05:00  INFO 11620 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T10:44:51.709+05:00  WARN 11620 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-18T10:44:53.365+05:00  INFO 11620 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-18T10:44:53.390+05:00  INFO 11620 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-2025-07-18T10:44:53.704+05:00  INFO 11620 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-18T10:44:53.982+05:00  INFO 11620 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 14.598 seconds (process running for 15.751)
-2025-07-18T10:45:19.928+05:00  INFO 11620 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-18T10:45:19.929+05:00  INFO 11620 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-18T10:45:19.933+05:00  INFO 11620 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2025-07-18T10:49:35.645+05:00  WARN 11620 --- [task] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'msg' for method parameter type String is not present]
-2025-07-18T10:52:50.381+05:00  INFO 11620 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-18T10:52:50.404+05:00  INFO 11620 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-18T10:52:50.427+05:00  INFO 11620 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T10:52:50.437+05:00  INFO 11620 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-18T10:52:50.456+05:00  INFO 11620 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-18T10:52:57.663+05:00  INFO 12456 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 12456 (G:\tom\task\target\classes started by Acer in G:\tom\task)
-2025-07-18T10:52:57.667+05:00 DEBUG 12456 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-18T10:52:57.669+05:00  INFO 12456 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-18T10:52:57.812+05:00  INFO 12456 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-18T10:52:57.813+05:00  INFO 12456 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-18T10:53:00.334+05:00  INFO 12456 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T10:53:00.337+05:00  INFO 12456 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-07-18T10:53:00.417+05:00  INFO 12456 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T10:53:00.420+05:00  INFO 12456 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T10:53:00.422+05:00  INFO 12456 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 0 JDBC repository interfaces.
-2025-07-18T10:53:00.443+05:00  INFO 12456 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T10:53:00.445+05:00  INFO 12456 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-18T10:53:00.523+05:00  INFO 12456 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
-2025-07-18T10:53:01.813+05:00  INFO 12456 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-18T10:53:01.853+05:00  INFO 12456 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-18T10:53:01.854+05:00  INFO 12456 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-18T10:53:01.963+05:00  INFO 12456 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-18T10:53:01.964+05:00  INFO 12456 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4149 ms
-2025-07-18T10:53:02.645+05:00  INFO 12456 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-18T10:53:02.756+05:00  INFO 12456 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-18T10:53:02.826+05:00  INFO 12456 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-18T10:53:03.458+05:00  INFO 12456 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-18T10:53:03.523+05:00  INFO 12456 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-18T10:53:04.491+05:00  INFO 12456 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d15af8a
-2025-07-18T10:53:04.495+05:00  INFO 12456 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-18T10:53:04.745+05:00  INFO 12456 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.42
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-07-18T10:53:06.419+05:00  INFO 12456 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-18T10:53:06.575+05:00  INFO 12456 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T10:53:07.238+05:00  WARN 12456 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-18T10:53:08.560+05:00  INFO 12456 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-18T10:53:08.582+05:00  INFO 12456 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-2025-07-18T10:53:08.860+05:00  INFO 12456 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-18T10:53:09.143+05:00  INFO 12456 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 12.619 seconds (process running for 13.868)
-2025-07-18T10:53:20.612+05:00  INFO 12456 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-18T10:53:20.612+05:00  INFO 12456 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-18T10:53:20.614+05:00  INFO 12456 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-07-18T11:02:05.694+05:00  INFO 12456 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-18T11:02:05.717+05:00  INFO 12456 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-18T11:02:05.729+05:00  INFO 12456 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:02:05.737+05:00  INFO 12456 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-18T11:02:05.750+05:00  INFO 12456 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-18T11:02:13.308+05:00  INFO 14352 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 14352 (G:\tom\task\target\classes started by Acer in G:\tom\task)
-2025-07-18T11:02:13.312+05:00 DEBUG 14352 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-18T11:02:13.314+05:00  INFO 14352 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-18T11:02:13.468+05:00  INFO 14352 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-18T11:02:13.469+05:00  INFO 14352 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-18T11:02:16.171+05:00  INFO 14352 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:02:16.175+05:00  INFO 14352 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-07-18T11:02:16.265+05:00  INFO 14352 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:02:16.269+05:00  INFO 14352 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:02:16.270+05:00  INFO 14352 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 0 JDBC repository interfaces.
-2025-07-18T11:02:16.293+05:00  INFO 14352 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:02:16.295+05:00  INFO 14352 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-18T11:02:16.368+05:00  INFO 14352 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
-2025-07-18T11:02:17.605+05:00  INFO 14352 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-18T11:02:17.639+05:00  INFO 14352 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-18T11:02:17.640+05:00  INFO 14352 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-18T11:02:17.742+05:00  INFO 14352 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-18T11:02:17.743+05:00  INFO 14352 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4273 ms
-2025-07-18T11:02:18.419+05:00  INFO 14352 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-18T11:02:18.533+05:00  INFO 14352 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-18T11:02:18.600+05:00  INFO 14352 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-18T11:02:19.256+05:00  INFO 14352 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-18T11:02:19.321+05:00  INFO 14352 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-18T11:02:20.164+05:00  INFO 14352 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@580a3258
-2025-07-18T11:02:20.168+05:00  INFO 14352 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-18T11:02:20.421+05:00  INFO 14352 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.42
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-07-18T11:02:22.156+05:00  INFO 14352 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-18T11:02:22.307+05:00  INFO 14352 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:02:22.938+05:00  WARN 14352 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-18T11:02:24.250+05:00  INFO 14352 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-18T11:02:24.270+05:00  INFO 14352 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-2025-07-18T11:02:24.462+05:00  INFO 14352 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-18T11:02:24.740+05:00  INFO 14352 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 12.699 seconds (process running for 13.95)
-2025-07-18T11:02:31.006+05:00  INFO 14352 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-18T11:02:31.006+05:00  INFO 14352 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-18T11:02:31.012+05:00  INFO 14352 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-07-18T11:09:20.896+05:00  INFO 14352 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-18T11:09:20.922+05:00  INFO 14352 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-18T11:09:20.935+05:00  INFO 14352 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:09:20.945+05:00  INFO 14352 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-18T11:09:20.969+05:00  INFO 14352 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-18T11:19:34.522+05:00  INFO 13064 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 13064 (G:\tom\task\target\classes started by Acer in G:\tom\task)
-2025-07-18T11:19:34.529+05:00 DEBUG 13064 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-18T11:19:34.532+05:00  INFO 13064 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-18T11:19:34.717+05:00  INFO 13064 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-18T11:19:34.719+05:00  INFO 13064 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-18T11:19:38.042+05:00  INFO 13064 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:19:38.047+05:00  INFO 13064 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-07-18T11:19:38.125+05:00  INFO 13064 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:19:38.128+05:00  INFO 13064 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:19:38.129+05:00  INFO 13064 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 0 JDBC repository interfaces.
-2025-07-18T11:19:38.152+05:00  INFO 13064 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:19:38.154+05:00  INFO 13064 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-18T11:19:38.222+05:00  INFO 13064 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
-2025-07-18T11:19:39.702+05:00  INFO 13064 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-18T11:19:39.738+05:00  INFO 13064 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-18T11:19:39.739+05:00  INFO 13064 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-18T11:19:39.849+05:00  INFO 13064 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-18T11:19:39.850+05:00  INFO 13064 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5129 ms
-2025-07-18T11:19:40.638+05:00  INFO 13064 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-18T11:19:40.757+05:00  INFO 13064 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-18T11:19:40.833+05:00  INFO 13064 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-18T11:19:41.656+05:00  INFO 13064 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-18T11:19:41.724+05:00  INFO 13064 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-18T11:19:42.775+05:00  INFO 13064 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ee35260
-2025-07-18T11:19:42.780+05:00  INFO 13064 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-18T11:19:43.019+05:00  INFO 13064 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.42
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-07-18T11:19:44.824+05:00  INFO 13064 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-18T11:19:45.215+05:00  INFO 13064 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:19:45.821+05:00  WARN 13064 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-18T11:19:47.072+05:00  INFO 13064 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-18T11:19:47.090+05:00  INFO 13064 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-2025-07-18T11:19:47.372+05:00  INFO 13064 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-18T11:19:47.704+05:00  INFO 13064 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 14.369 seconds (process running for 15.673)
-2025-07-18T11:23:06.167+05:00  INFO 13064 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-18T11:23:06.167+05:00  INFO 13064 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-18T11:23:06.168+05:00  INFO 13064 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-07-18T11:26:56.610+05:00  INFO 13064 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-18T11:26:56.632+05:00  INFO 13064 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-18T11:26:56.647+05:00  INFO 13064 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:26:56.655+05:00  INFO 13064 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-18T11:26:56.684+05:00  INFO 13064 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-18T11:27:03.379+05:00  INFO 356 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 356 (G:\tom\task\target\classes started by Acer in G:\tom\task)
-2025-07-18T11:27:03.384+05:00 DEBUG 356 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-18T11:27:03.386+05:00  INFO 356 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-18T11:27:03.546+05:00  INFO 356 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-18T11:27:03.548+05:00  INFO 356 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-18T11:27:06.026+05:00  INFO 356 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:27:06.029+05:00  INFO 356 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-07-18T11:27:06.112+05:00  INFO 356 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:27:06.116+05:00  INFO 356 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:27:06.117+05:00  INFO 356 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 0 JDBC repository interfaces.
-2025-07-18T11:27:06.138+05:00  INFO 356 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:27:06.141+05:00  INFO 356 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-18T11:27:06.210+05:00  INFO 356 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
-2025-07-18T11:27:07.432+05:00  INFO 356 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-18T11:27:07.466+05:00  INFO 356 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-18T11:27:07.467+05:00  INFO 356 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-18T11:27:07.567+05:00  INFO 356 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-18T11:27:07.568+05:00  INFO 356 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4018 ms
-2025-07-18T11:27:08.201+05:00  INFO 356 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-18T11:27:08.311+05:00  INFO 356 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-18T11:27:08.383+05:00  INFO 356 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-18T11:27:08.959+05:00  INFO 356 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-18T11:27:09.018+05:00  INFO 356 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-18T11:27:09.963+05:00  INFO 356 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@580a3258
-2025-07-18T11:27:09.967+05:00  INFO 356 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-18T11:27:10.150+05:00  INFO 356 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.42
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-07-18T11:27:11.670+05:00  INFO 356 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-18T11:27:11.838+05:00  INFO 356 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:27:12.521+05:00  WARN 356 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-18T11:27:13.750+05:00  INFO 356 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-18T11:27:13.768+05:00  INFO 356 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-2025-07-18T11:27:14.033+05:00  INFO 356 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-18T11:27:14.305+05:00  INFO 356 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 12.033 seconds (process running for 13.166)
-2025-07-18T11:27:27.862+05:00  INFO 356 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-18T11:27:27.863+05:00  INFO 356 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-18T11:27:27.865+05:00  INFO 356 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-07-18T11:52:08.162+05:00  INFO 356 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-18T11:52:08.189+05:00  INFO 356 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-18T11:52:08.205+05:00  INFO 356 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:52:08.215+05:00  INFO 356 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-18T11:52:08.225+05:00  INFO 356 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-18T11:52:17.226+05:00  INFO 13304 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 13304 (G:\tom\task\target\classes started by Acer in G:\tom\task)
-2025-07-18T11:52:17.230+05:00 DEBUG 13304 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-18T11:52:17.232+05:00  INFO 13304 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-18T11:52:17.396+05:00  INFO 13304 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-18T11:52:17.397+05:00  INFO 13304 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-18T11:52:19.904+05:00  INFO 13304 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:52:19.907+05:00  INFO 13304 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-07-18T11:52:19.993+05:00  INFO 13304 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:52:19.996+05:00  INFO 13304 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:52:19.998+05:00  INFO 13304 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 0 JDBC repository interfaces.
-2025-07-18T11:52:20.020+05:00  INFO 13304 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:52:20.022+05:00  INFO 13304 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-18T11:52:20.092+05:00  INFO 13304 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
-2025-07-18T11:52:21.528+05:00  INFO 13304 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-18T11:52:21.565+05:00  INFO 13304 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-18T11:52:21.566+05:00  INFO 13304 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-18T11:52:21.668+05:00  INFO 13304 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-18T11:52:21.669+05:00  INFO 13304 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4271 ms
-2025-07-18T11:52:22.415+05:00  INFO 13304 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-18T11:52:22.584+05:00  INFO 13304 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-18T11:52:22.684+05:00  INFO 13304 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-18T11:52:23.407+05:00  INFO 13304 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-18T11:52:23.485+05:00  INFO 13304 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-18T11:52:24.571+05:00  INFO 13304 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@eeb8c39
-2025-07-18T11:52:24.575+05:00  INFO 13304 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-18T11:52:24.884+05:00  INFO 13304 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.42
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-07-18T11:52:26.657+05:00  INFO 13304 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-18T11:52:26.976+05:00  INFO 13304 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:52:27.645+05:00  WARN 13304 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-18T11:52:28.942+05:00  INFO 13304 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-18T11:52:28.964+05:00  INFO 13304 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-2025-07-18T11:52:29.161+05:00  INFO 13304 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-18T11:52:29.482+05:00  INFO 13304 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 13.506 seconds (process running for 14.752)
-2025-07-18T11:52:45.553+05:00  INFO 13304 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-18T11:52:45.554+05:00  INFO 13304 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-18T11:52:45.555+05:00  INFO 13304 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-07-18T11:54:43.012+05:00  INFO 13304 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-18T11:54:43.036+05:00  INFO 13304 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-18T11:54:43.049+05:00  INFO 13304 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:54:43.056+05:00  INFO 13304 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-18T11:54:43.071+05:00  INFO 13304 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-18T11:54:50.211+05:00  INFO 10992 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 10992 (G:\tom\task\target\classes started by Acer in G:\tom\task)
-2025-07-18T11:54:50.215+05:00 DEBUG 10992 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-18T11:54:50.217+05:00  INFO 10992 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-18T11:54:50.356+05:00  INFO 10992 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-18T11:54:50.357+05:00  INFO 10992 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-18T11:54:53.179+05:00  INFO 10992 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:54:53.183+05:00  INFO 10992 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-07-18T11:54:53.276+05:00  INFO 10992 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:54:53.280+05:00  INFO 10992 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:54:53.282+05:00  INFO 10992 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 0 JDBC repository interfaces.
-2025-07-18T11:54:53.306+05:00  INFO 10992 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:54:53.309+05:00  INFO 10992 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-18T11:54:53.394+05:00  INFO 10992 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
-2025-07-18T11:54:54.742+05:00  INFO 10992 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-18T11:54:54.773+05:00  INFO 10992 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-18T11:54:54.774+05:00  INFO 10992 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-18T11:54:54.868+05:00  INFO 10992 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-18T11:54:54.869+05:00  INFO 10992 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4509 ms
-2025-07-18T11:54:55.621+05:00  INFO 10992 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-18T11:54:55.821+05:00  INFO 10992 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-18T11:54:55.913+05:00  INFO 10992 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-18T11:54:56.559+05:00  INFO 10992 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-18T11:54:56.625+05:00  INFO 10992 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-18T11:54:57.656+05:00  INFO 10992 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56619028
-2025-07-18T11:54:57.661+05:00  INFO 10992 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-18T11:54:57.919+05:00  INFO 10992 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.42
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-07-18T11:54:59.640+05:00  INFO 10992 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-18T11:54:59.793+05:00  INFO 10992 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:55:00.620+05:00  WARN 10992 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-18T11:55:02.013+05:00  INFO 10992 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-18T11:55:02.042+05:00  INFO 10992 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-2025-07-18T11:55:02.345+05:00  INFO 10992 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-18T11:55:02.759+05:00  INFO 10992 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 13.65 seconds (process running for 14.81)
-2025-07-18T11:55:08.397+05:00  INFO 10992 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-18T11:55:08.398+05:00  INFO 10992 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-18T11:55:08.400+05:00  INFO 10992 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-07-18T11:56:01.811+05:00  INFO 10992 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-18T11:56:01.835+05:00  INFO 10992 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-18T11:56:01.866+05:00  INFO 10992 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:56:01.883+05:00  INFO 10992 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-18T11:56:01.907+05:00  INFO 10992 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-18T11:56:09.716+05:00  INFO 15044 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 15044 (G:\tom\task\target\classes started by Acer in G:\tom\task)
-2025-07-18T11:56:09.721+05:00 DEBUG 15044 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-18T11:56:09.725+05:00  INFO 15044 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-18T11:56:09.872+05:00  INFO 15044 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-18T11:56:09.873+05:00  INFO 15044 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-18T11:56:12.313+05:00  INFO 15044 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:56:12.316+05:00  INFO 15044 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-07-18T11:56:12.395+05:00  INFO 15044 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:56:12.398+05:00  INFO 15044 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:56:12.399+05:00  INFO 15044 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 0 JDBC repository interfaces.
-2025-07-18T11:56:12.421+05:00  INFO 15044 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:56:12.423+05:00  INFO 15044 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-18T11:56:12.493+05:00  INFO 15044 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
-2025-07-18T11:56:13.927+05:00  INFO 15044 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-18T11:56:13.959+05:00  INFO 15044 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-18T11:56:13.960+05:00  INFO 15044 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-18T11:56:14.185+05:00  INFO 15044 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-18T11:56:14.188+05:00  INFO 15044 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4312 ms
-2025-07-18T11:56:14.943+05:00  INFO 15044 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-18T11:56:15.048+05:00  INFO 15044 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-18T11:56:15.123+05:00  INFO 15044 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-18T11:56:15.760+05:00  INFO 15044 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-18T11:56:15.820+05:00  INFO 15044 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-18T11:56:16.892+05:00  INFO 15044 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fe39f48
-2025-07-18T11:56:16.896+05:00  INFO 15044 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-18T11:56:17.289+05:00  INFO 15044 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.42
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-07-18T11:56:19.241+05:00  INFO 15044 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-18T11:56:19.387+05:00  INFO 15044 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:56:20.397+05:00  WARN 15044 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-18T11:56:21.830+05:00  INFO 15044 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-18T11:56:21.856+05:00  INFO 15044 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-2025-07-18T11:56:22.233+05:00  INFO 15044 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-18T11:56:22.574+05:00  INFO 15044 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 13.979 seconds (process running for 15.193)
-2025-07-18T11:56:23.586+05:00  INFO 15044 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-18T11:56:23.610+05:00  INFO 15044 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-18T11:56:23.622+05:00  INFO 15044 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:56:23.636+05:00  INFO 15044 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-18T11:56:23.654+05:00  INFO 15044 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-18T11:56:32.539+05:00  INFO 6304 --- [task] [restartedMain] com.example.task.TaskApplication         : Starting TaskApplication using Java 24.0.1 with PID 6304 (G:\tom\task\target\classes started by Acer in G:\tom\task)
-2025-07-18T11:56:32.542+05:00 DEBUG 6304 --- [task] [restartedMain] com.example.task.TaskApplication         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-18T11:56:32.543+05:00  INFO 6304 --- [task] [restartedMain] com.example.task.TaskApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-18T11:56:32.684+05:00  INFO 6304 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-18T11:56:32.685+05:00  INFO 6304 --- [task] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-18T11:56:35.565+05:00  INFO 6304 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:56:35.567+05:00  INFO 6304 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-07-18T11:56:35.634+05:00  INFO 6304 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.StudentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:56:35.636+05:00  INFO 6304 --- [task] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.task.Repositoy.TeacherRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-07-18T11:56:35.637+05:00  INFO 6304 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 0 JDBC repository interfaces.
-2025-07-18T11:56:35.657+05:00  INFO 6304 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-18T11:56:35.659+05:00  INFO 6304 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-18T11:56:35.726+05:00  INFO 6304 --- [task] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
-2025-07-18T11:56:37.388+05:00  INFO 6304 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-18T11:56:37.414+05:00  INFO 6304 --- [task] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-18T11:56:37.415+05:00  INFO 6304 --- [task] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-18T11:56:37.568+05:00  INFO 6304 --- [task] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-18T11:56:37.569+05:00  INFO 6304 --- [task] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4882 ms
-2025-07-18T11:56:38.155+05:00  INFO 6304 --- [task] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-18T11:56:38.278+05:00  INFO 6304 --- [task] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-18T11:56:38.379+05:00  INFO 6304 --- [task] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-18T11:56:39.070+05:00  INFO 6304 --- [task] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-18T11:56:39.137+05:00  INFO 6304 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-18T11:56:39.969+05:00  INFO 6304 --- [task] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@582271a1
-2025-07-18T11:56:39.972+05:00  INFO 6304 --- [task] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-18T11:56:40.165+05:00  INFO 6304 --- [task] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.42
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-07-18T11:56:41.731+05:00  INFO 6304 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-18T11:56:42.016+05:00  INFO 6304 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:56:43.024+05:00  WARN 6304 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-18T11:56:44.389+05:00  INFO 6304 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-18T11:56:44.411+05:00  INFO 6304 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-2025-07-18T11:56:44.738+05:00  INFO 6304 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-18T11:56:49.328+05:00  INFO 6304 --- [task] [restartedMain] com.example.task.TaskApplication         : Started TaskApplication in 17.849 seconds (process running for 19.315)
-2025-07-18T11:56:53.648+05:00  INFO 6304 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-18T11:56:53.649+05:00  INFO 6304 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-18T11:56:53.654+05:00  INFO 6304 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2025-07-18T11:57:08.016+05:00  INFO 6304 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-18T11:57:08.039+05:00  INFO 6304 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-18T11:57:08.050+05:00  INFO 6304 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-18T11:57:08.057+05:00  INFO 6304 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-18T11:57:08.073+05:00  INFO 6304 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-21T10:50:12.028+05:00  INFO 6756 --- [task] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21T10:50:12.202+05:00  INFO 6756 --- [task] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21T10:50:12.789+05:00  WARN 6756 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-21T10:50:14.034+05:00  INFO 6756 --- [task] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-21T10:50:14.055+05:00  INFO 6756 --- [task] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-07-21T10:50:14.211+05:00  INFO 6756 --- [task] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-21T10:51:23.304+05:00  INFO 6756 --- [task] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-21T10:51:23.305+05:00  INFO 6756 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-21T10:51:23.307+05:00  INFO 6756 --- [task] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-07-21T10:51:24.578+05:00  WARN 6756 --- [task] [http-nio-8080-exec-1] c.e.task.Student.StudentController       : Student with ID 1 not found.
+2025-07-21T10:53:45.063+05:00  INFO 6756 --- [task] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21T10:53:45.087+05:00  INFO 6756 --- [task] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-21T10:53:45.096+05:00  INFO 6756 --- [task] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21T10:53:45.102+05:00  INFO 6756 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-21T10:53:45.120+05:00  INFO 6756 --- [task] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-21T10:53:59.866+05:00  WARN 6356 --- [task] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-21T10:55:29.141+05:00  WARN 6356 --- [task] [http-nio-8080-exec-3] c.e.task.Student.StudentController       : Student with ID 1 not found.
